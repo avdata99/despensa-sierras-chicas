@@ -1,0 +1,813 @@
+ID,IdTipoProducto,nProducto,pCosto,pVenta,CodEnvase
+-18,-1,Concepto 8,0,0,No Tiene
+-17,-1,Concepto 7,0,0,No Tiene
+-16,-1,Concepto 6,0,0,No Tiene
+-15,-1,Concepto 5,0,0,No Tiene
+-14,-1,Concepto 4,0,0,No Tiene
+-13,-1,Concepto 3,0,0,No Tiene
+-12,-1,Concepto 2,0,0,No Tiene
+-11,-1,Concepto 1,0,0,No Tiene
+-2,-1,IVA,0,0,No Tiene
+-1,-1,Descuentos,0,0,No Tiene
+1,10,Granadina Cusenier,35,43,Cerveza
+2,2,Brahma,"15,2473106384",20,Cerveza
+3,2,Andes,"16,4001235962",20,Cerveza
+4,2,Budweiser,"17,889705658",22,Cerveza
+5,2,Cordoba,"15,8332223892",20,Cerveza
+6,2,Heineken,"31,2754993439",38,Cerveza
+7,2,Isenbeck descartable,"16,7900543213",20,No tiene
+8,2,Quilmes LIEBER sin alcohol,"19,0874328613",23,Cerveza
+9,2,Lata Brahma 354cc,"11,240942955",13,Cerveza
+10,2,Stella monjita,"17,8883838654",22,Cerveza
+11,2,Quilmes,"16,4587154388",20,Cerveza
+12,2,Quilmes Bock,"22,0024032593",28,Cerveza
+13,7,Lata Coca linea,"6,6671676636",8,Cerveza
+14,2,Warsteiner,"14,8656387329",2,Cerveza
+15,2,Mahou monjita (españa),"14,0011787415",17,No tiene
+16,13,Trapiche rosado,"20,7507419586",25,No tiene
+17,2,Quilmes BAJO CERO,"19,2014198303",23,No tiene
+18,2,Imperial Trigo,"24,12682724",28,No tiene
+19,2,Sol Cerveza (mexico),"24,4882965088",30,No tiene
+20,2,Iguana,"21,2048168182",28,Cerveza
+21,2,Stella Artois Noire,"29,755197525",38,No tiene
+23,16,Arizu bco,0,0,No tiene
+24,16,Arizu tto,"6,9800000191",8,No tiene
+25,16,Arriero bco,"1,1799999475","1,5",No tiene
+26,16,Arriero tto,"1,5199999809","1,75",No tiene
+27,10,Bolsa Regalo,"3,5294001102",5,No tiene
+28,16,Carragal bco,"4,0999999046",5,No tiene
+29,16,Carragal tto,"5,0487990379",6,No tiene
+30,16,Cavic blanco,"1,5399999619","1,8999999762",No tiene
+31,16,Cavic bco dce,"1,5038000345",2,No tiene
+32,16,Cavic rosado,0,0,No tiene
+33,16,Cavic tto,2,"2,4000000954",No tiene
+34,16,Crespi bco,"1,25","1,6499999762",No tiene
+35,16,Crespi tinto,"1,6799999475",2,No tiene
+36,16,Del Valle bco,"1,2100000381","1,5",No tiene
+37,16,Del Valle tto,"1,4500000477","1,75",No tiene
+40,1,Aquarius 1500cc,"12,8577537537",18,No tiene
+42,13,Cavas de Santino magnum,"19,8767852783",25,No tiene
+43,16,Nacari Blanco tetra,"4,612654686","5,25",No tiene
+44,16,Nacari Tinto tetra,"4,7258200645","6,5",No tiene
+45,16,Nativo blanco,"2,1598329544","2,75",No tiene
+46,16,Nativo tinto,"6,3333001137","7,5",No tiene
+47,16,Pico de oro,"4,400144577","5,5",No tiene
+48,10,Encendedor Elect Marlboro,6,8,No tiene
+49,16,Resero bco,"4,1666998863",5,No tiene
+50,16,Resero tto,"5,9416999817","7,5",No tiene
+53,16,Termidor ros,"1,8899999857","2,4000000954",No tiene
+54,15,Don Ernesto tinto damaj,"42,0076293945",50,No tiene
+55,16,Ternuva bco,0,0,No tiene
+56,16,Termidor tto,"7,4600000381",9,No tiene
+57,16,Toro Tinto tetra,"13,5353460312",17,No tiene
+58,16,Toro Blanco tetra,"11,6809959412",15,No tiene
+59,16,Uvita blanco dulce,"1,7899999619","2,25",No tiene
+62,16,Viñas Riojanas Blanco tetra,"10,0074920654",13,No tiene
+63,16,Viñas Riojanas Tinto tetra y 930cc,"10,4999904633",13,No tiene
+64,8,xx,"5,391699791",12,No tiene
+65,4,Philip Morris 10,"12,0519142151",13,No tiene
+66,4,Philip Morris 20,"21,3066577911",23,No tiene
+67,4,Philip Morris 20 box,"22,2247638702",24,No tiene
+68,4,Marlboro 10,"12,9688034058",14,No tiene
+69,4,Marlboro 20,"23,1643028259",25,No tiene
+70,4,Pall Mall 20 box nuevos,"16,9965896606",24,No tiene
+71,4,Marlboro 20 box,"24,0929069519",26,No tiene
+72,4,Lemans 10,"5,5341386795","7,5",No tiene
+73,4,Lemans 20,"21,3018035889",23,No tiene
+74,4,Lemans 100,"22,2295703888",24,No tiene
+75,4,Parliament 10,"1,7599999905","1,8999999762",No tiene
+76,4,Parliament 20,"26,8622627258",29,No tiene
+77,3,Champagne Sensacion,"33,3900146484",40,No tiene
+78,4,Particulares,"19,4466743469",21,No tiene
+79,4,Imparciales,"20,3725566864",22,No tiene
+80,5,Fernandito VII,"4,1666998863",5,No tiene
+81,4,LyM,"6,9441552162",23,No tiene
+82,4,LyM box,"6,7119073868",24,No tiene
+84,4,Benson & Hedges,"26,842830658",29,No tiene
+85,4,Chesterfield,"21,3017139435",23,No tiene
+86,4,Colorado 20 Baisha,"18,5067768097",20,No tiene
+87,10,Pulpa Bahia,"34,0499992371",40,No tiene
+88,4,Camel 10,"12,9771118164",14,No tiene
+89,4,Viceroy 20 CONVERTIBLES Switch,"17,6103668213",19,No tiene
+90,4,Camel 20,"23,1896400452",25,No tiene
+91,4,Marlboro 20 FUSION BLAST Doble click 20 box,"25,0178985596",27,No tiene
+92,4,Camel 20 box,"20,3960800171",26,No tiene
+99,4,Desconocido,"0","0",No tiene
+100,4,XXXXX,"20,7995853424",25,No tiene
+101,4,Derby 10,"3,6456308365",13,No tiene
+102,4,Desconocido,"0","0",No tiene
+103,4,Derby 20,"19,4968032837",23,No tiene
+104,4,Derby 20 Suaves,"19,4897499084",23,No tiene
+105,4,Conway 20,"5,6919064522","19,5",No tiene
+106,16,Don Ernesto Bco damaj,"41,983341217",50,No tiene
+107,4,Jockey 20,"6,9461526871",9,No tiene
+108,4,Pall Mall 20,"18,6613063812",23,No tiene
+109,4,Gold Leaf,"22,2596702576",24,No tiene
+110,4,Gitanes,"22,2607822418",24,No tiene
+111,4,43 70 cortos cigarrillos,"20,4118461609",22,No tiene
+112,4,Jockey 20 Suaves,"6,026594162",9,No tiene
+113,4,Pall mall 10,"7,8800001144",13,No tiene
+115,4,Richmond,"9,1603822708",10,No tiene
+116,4,Baltimore,"1,2933199406","1,3999999762",No tiene
+117,4,Tabaco Mariposa aleman,"8,4729976654",10,No tiene
+118,7,Coca 2250cc desc,"23,5969944",32,No tiene
+119,7,Coca 2l ret,"15,9736766815",20,Coca 2l
+120,7,Coca light 2l ret,"15,0024938583",20,Coca 2l
+121,7,Coca 2500 cc ret GRANDE NUEVA,"20,842962265",25,No tiene
+122,7,Coca 1500 c.c. desc,"16,94739151",22,No tiene
+123,7,Coca vidrio,"12,5001716614",15,Coca 1 1/4 l
+124,7,Coca 500 c.c desc,"8,1532125473",10,No tiene
+125,7,Coca 1 lt,"13,3332643509",16,No tiene
+126,7,Coquitas,"4,3713417053",6,No tiene
+127,7,Fanta 2250cc desc,"23,9518356323",30,No tiene
+128,7,Beldent INFINIT x14,5,6,No tiene
+129,7,Fanta 2l ret,"15,0027828217",20,Fanta 2l
+130,7,Fanta vidrio,"12,5002574921",15,Fanta 1 1/4l
+131,7,Coca zero 1500cc desc,"18,333032608",22,No tiene
+132,7,Sprite 2250cc desc,"24,4978752136",30,No tiene
+133,7,Sprite 2l ret y zero 2l ret,"15,9759349823",20,Sprite 2l
+134,7,Coca Zero 2l ret,"16,3267383575",20,No tiene
+135,7,Sprite vidrio,"12,5014343262",15,Sprite 1 1/4l
+136,7,Sprite 1 lt descartable,"12,5012636185",16,No tiene
+137,7,Pritty 500 cc,"7,1727705002",10,No tiene
+138,7,Quattro Pomelo Rosado,"2,2207999229","2,5999999046",No tiene
+139,7,Crush Naranja descartable,"16,1216754913",20,No tiene
+140,8,Cepita 200cc,"4,5952897072",5,No tiene
+141,16,Zumuva bco,"4,150135994",5,No tiene
+142,16,Zumuva bco dce,"11,2246217728",14,No tiene
+143,14,Don Ernesto blanco bot,5,6,Envase vino lt.
+144,14,Don Ernesto tinto bot,"7,8071393967",10,Envase vino lt.
+145,13,Los Quiroga chico,"7,6182422638","9,25",No tiene
+146,15,Mastroeni,64,78,Damajuana
+147,8,Amargo Tres Torres,"7,10008955",9,No tiene
+148,14,Toro Blanco bot,"12,1109523773",9,No tiene
+149,14,Toro Tinto bot ecol,"14,375",18,No tiene
+150,13,Imago,"33,0839118958",49,No tiene
+151,10,M Force Multi O Preserbativo,6,8,No tiene
+152,15,Benedetti Tinto damajuana,37,45,Damajuana
+153,16,Toro Blanco Dulce tetra,"8,3332996368",10,Damajuana
+154,13,Suc. Abel Michel Torino ABOCADO,"8,2402572632",16,Damajuana
+155,13,Esperado bco,"38,5029602051",45,Damajuana
+156,3,Champagne Dada7 Bco y Rdo,"49,2996139526",65,Damajuana
+157,15,Tueris Bco,28,33,Damajuana
+158,13,Bousquet Domaine,"67,9993743896",82,Damajuana
+159,15,Sta Eugenia Bonarda,"44,3087234497",55,Damajuana
+160,9,Licor Peters,"47,3991546631",58,Damajuana
+162,13,Viejo Viñedo,"0,0157143697",12,Damajuana
+163,15,Terranoble (chile),"49,9997787476",60,Damajuana
+164,15,Domingo Hnos ROBLE damajuana,"125,8335647583",158,Damajuana
+165,15,Don Bosco m.sangiov damaj,"81,6411209106",98,Damajuana
+166,13,Esperado tto,"35,628818512",45,Damajuana
+167,4,LyM suaves,"6,9399418831",23,Damajuana
+168,15,Alto Mendoza b y t,"16,9996337891",24,Damajuana
+169,15,Don Manuel malbeck merlot,25,36,Damajuana
+170,15,Fraternal Blanco damaj,20,24,Damajuana
+171,15,Fraternal tinto damaj,36,36,Damajuana
+172,15,Hagman tto,0,0,Damajuana
+173,15,Lourdes bco,0,0,Damajuana
+176,15,Michel bco,"8,6999998093",10,Damajuana
+177,15,Michel tto,"9,5",11,Damajuana
+178,15,Montonero,"8,9099998474",10,Damajuana
+179,15,Nerviani,"40,1903533936",55,Damajuana
+180,15,Nacari Tinto damaj,"43,5499992371",52,Damajuana
+181,15,Nacari Fino Blanco damaj,"8,1700000763",10,No tiene
+182,15,Pedemonte,"9,5","11,5",Damajuana
+184,15,San Javier bco,0,0,Damajuana
+185,15,San Javier tto,"8,3000001907",10,Damajuana
+186,15,Separado tinto,0,0,Damajuana
+187,15,Sta Eugenia borgoña,"45,9490776062",55,Damajuana
+188,15,Sta Eugenia malbec,"55,4979400635",68,Damajuana
+189,13,xxxxxx,"26,5098934174",32,Damajuana
+190,15,Sutter damajuana,"22,689453125",27,Damajuana
+191,2,Quilmes monjita,"11,601140976",14,Damajuana
+192,1,We 1500cc by Ser con gas,5,18,Damajuana
+195,4,Marlboro 20 ICE BLAST,"24,1039829254",26,Damajuana
+196,15,Viñasd Riojanas Blanco damaj,65,78,Damajuana
+197,15,Viñasd Riojanas Tinto damaj,65,78,Damajuana
+199,1,We 2250cc by Ser con gas,"15,9762992859",23,No tiene
+200,4,Lucky Strike 20 box convertibles,"24,1114463806",26,No tiene
+201,13,Balbo Magnum,"23,0338420868",28,No tiene
+202,13,Santa Ana Rosado,"7,5499315262",9,No tiene
+203,3,Snob fresh,"20,3005275726",25,No tiene
+204,13,Callia (mejoramos precio),"31,0870113373",40,No tiene
+205,13,Calvet,12,15,No tiene
+206,13,Ventus,"19,5","23,5",No tiene
+207,13,Carcassone tto,"13,1802520752",16,No tiene
+208,13,Castel,"15,6601133347",19,No tiene
+209,13,Colon Clasico Tinto,"22,4902191162",27,No tiene
+210,13,Colon Cabernet,"26,3966178894",32,No tiene
+211,13,Colon Merlot,"27,0114994049",32,No tiene
+212,13,Colon Clasico Blanco,"17,8874397278",27,No tiene
+213,13,Concha y Toro TRIVENTO reserbado,"6,6799998283","7,75",No tiene
+214,13,Putruele,30,36,No tiene
+215,13,Cruz del sur magnum,"20,3332996368",25,No tiene
+216,13,Estancia Mendoza,"19,887386322",26,No tiene
+217,13,Vieja Mendoza,"14,1667003632",17,No tiene
+220,3,Frizze blanco,"14,1000003815",18,No tiene
+223,13,Giol bco,"1,3200000525","1,6000000238",No tiene
+224,13,Giol tto,"1,5099999905","1,75",No tiene
+225,13,El Supremo,17,21,No tiene
+226,13,Graffigna,"10,8100004196",13,No tiene
+227,13,Jerez Florio,"17,7621803284",25,No tiene
+228,13,Latitud 33,"55,8339118958",70,No tiene
+229,13,La Quebrada tinto,"2,1900000572",3,No tiene
+230,13,Lavaque tinto,"6,5933556557",8,No tiene
+231,13,Los Arboles tto 3/4,"32,0244903564",40,No tiene
+232,13,Los Quiroga,"13,5789785385",17,No tiene
+233,13,Michel Torino Borgoña,"3,2999999523",4,No tiene
+234,13,Suc. Abel Michel Torino blanco,"12,7898826599",16,No tiene
+235,13,Suc. Abel Michel Torino Tinto,"12,7940635681",16,No tiene
+236,13,Michel Torino seleccion tto,"10,5181293488",15,No tiene
+237,13,Benjamin coleccion tardia dulce natural,"38,3712768555",45,No tiene
+238,13,Mistela sanjuanino,12,15,No tiene
+239,7,Beldent chicles,"2,1315789223",3,No tiene
+240,13,Portillo,"23,6245880127",29,No tiene
+241,3,New Age,"37,9964637756",46,No tiene
+242,13,Neo Blue,"15,6213159561",18,No tiene
+243,13,Norton Tinto,"18,3299999237",22,No tiene
+244,3,O  (2),0,0,No tiene
+245,13,Viñas de Caroya frambua amabile,"12,600569725",15,No tiene
+246,13,Parnaso bco,"1,2631293535","1,5",No tiene
+247,13,Parnaso tto,"1,1456267834","1,75",No tiene
+248,13,Parrales Chilecito tto,"2,2201805115",3,No tiene
+249,13,Parrales Chilecito bco,"2,6999430656","3,25",No tiene
+250,13,Pequeña Vasija,"6,3542742729","7,75",No tiene
+251,13,puente sur bco,"1,3300000429",0,No tiene
+252,13,Puente sur tto,0,0,No tiene
+253,13,Puente viejo,0,0,No tiene
+256,13,Sta. Monica (cualquier),0,0,No tiene
+257,13,Santa Ana tinto,"10,1506528854",13,No tiene
+258,13,Suc. Abel Michel T. MAGNUM,"18,6090221405",25,No tiene
+259,13,Chento,60,70,No tiene
+260,13,Sta Florentina Bivarietales,"21,4019527435",27,No tiene
+261,16,Don Ernesto tinto tetra,"10,1735677719",13,No tiene
+262,15,Domingo Hnos Fino Tto damaj,"106,5252075195",133,No tiene
+263,13,Tittarelli,"3,2116372585","4,5",No tiene
+264,13,Nampe 3/4 Los Haroldos,"28,3071155548",35,No tiene
+265,13,Toro Viejo Clasico 3/4,"12,7500524521",16,No tiene
+266,13,Trapiche DULCE COSECHA,"22,9501590729",28,No tiene
+267,13,Valderroble,"10,4282999039","12,5",No tiene
+268,13,Valmont,"26,9827022552",32,No tiene
+270,13,Nampe Magnum Los Haroldos,"35,0051727295",42,No tiene
+271,13,Viejo Tomba tto,"4,6999998093","5,75",No tiene
+272,13,Recinto del Rey,"8,5","10,5",No tiene
+273,8,Powerade 500 cc,"9,2313308716",12,No tiene
+274,13,San Telmo,"14,9099998474",18,No tiene
+275,7,Pepsi 500 cc,"6,0000853539",10,No tiene
+276,7,Pepsi Reco 2l retornable,"13,646276474",18,No tiene
+277,7,Pepsi light 2l oferta,"23,3450469971",30,No tiene
+278,7,Pepsi 2250cc ofertaa,"24,3610687256",30,Pepsi 1 1/4l
+279,7,Seven Reco 2l retornable,"13,3607826233",18,No tiene
+280,7,Seven 500 cc,"7,2000665665",10,No tiene
+281,7,Seven 237 cc,"4,4000000954",6,No tiene
+282,7,Seven vidrio,"11,6751995087",15,7up 1 1/4l
+283,7,Seven Free 1500cc,"15,0004663467",18,No tiene
+284,7,Pepsi 237 cc,"4,8250756264",6,No tiene
+285,7,Mirinda 2 1/4 lts,"24,3627643585",30,No tiene
+286,7,Paso de los Toros  Tonica,"16,7898101807",22,No tiene
+287,7,Pritty 1 lt,"10,7832899094",13,No tiene
+288,7,Pritty 2 1/4 l,"15,6156959534",20,No tiene
+289,7,Gaseosa Talca 2250cc,"12,9222793579",16,No tiene
+290,7,Pritty Light 1500cc,"13,1121368408",16,No tiene
+291,9,Tia Maria Cream,"81,8209838867",110,No tiene
+292,8,Jugo Monasterio 1 1/2 l,"7,7025866508",10,No tiene
+293,8,Jugo Monasterio bidon,"21,9014759064",28,No tiene
+294,8,Jugo Naranpol 1 1/2 l,0,"3,5",No tiene
+295,13,El Milagro torrontes,"6,5","6,5",No tiene
+296,8,Baggio Fresh y Light 1lt,"7,9998788834",10,No tiene
+298,8,Jugo Saldan,"12,3331594467",15,No tiene
+299,8,Clight,"2,9741678238","3,5",No tiene
+300,8,Tang,"2,7671642303","3,5",No tiene
+302,8,Ades 200cc,"6,3333001137",8,No tiene
+303,8,Mr Loco,0,0,No tiene
+304,8,Baggio 1lt,"11,5130052567",15,No tiene
+305,9,Anis 8 Hermanos,"49,91015625",60,No tiene
+306,9,Americano Gancia 930cc,"44,1832618713",55,No tiene
+307,9,Americano Gancia 450cc,"28,5",35,No tiene
+308,9,Americano Manon,"13,7287940979",18,No tiene
+309,9,Wisky Jameson,"167,7580413818",202,No tiene
+310,9,Caipiriña Capoeira,"44,4254722595",53,No tiene
+311,9,Caña Rancho,"26,9133167267",33,No tiene
+312,9,Caña Legui,"35,9000015259",48,No tiene
+313,9,Caña Ombú,"4,8200001717",6,No tiene
+314,9,Caña Piragua,"29,5436420441",36,No tiene
+315,10,Vaso Tom y Jerry,"11,0050802231",12,No tiene
+317,3,Champagne Chandon,"105,3168258667",128,No tiene
+318,3,Champagne Omnium,"45,0000686646",55,No tiene
+319,5,Dr Lemon XL bot 1lt,"25,7321052551",35,No tiene
+320,3,Champagne Norton,"38,902015686",48,No tiene
+321,3,Champagne Chandon 187 cco,"29,7080535889",35,No tiene
+323,9,Cinzano Rosso (negro),"41,7528991699",52,No tiene
+324,9,Coñac Tres Plumas,"33,0002098083",40,No tiene
+325,9,Coñac reserva san juan,"52,7722015381",63,No tiene
+326,9,Cubana,"33,0299987793",40,No tiene
+327,9,Fernet Branca 1/2 l,"51,5066299438",65,No tiene
+328,9,Fernet Branca 3/4,"79,8821563721",96,No tiene
+329,9,Fernet Branca ESTUCHE +VASO,"135,0017242432",165,No tiene
+330,9,Fernet Branca menta 3/4,"67,8613052368",96,No tiene
+331,9,Fernet Branca mini,"11,5167236328",13,No tiene
+332,7,Coca Zero 500 cc,"8,1362447739",10,No tiene
+333,15,Viña Cruz Box 3l,60,75,No tiene
+334,9,Fernet 1882,"56,5417938232",68,No tiene
+335,2,Me hecho la burra...,26,35,No tiene
+336,5,Dr Lemon bot 650cc,"19,5939083099",25,No tiene
+337,9,Fernet 1882 chico,"33,0197906494",40,No tiene
+338,9,Fernet Porta,"6,1999998093","7,5",No tiene
+339,9,Fernet Vittone 1/2 l,"16,5005321503",20,No tiene
+340,9,Fernet Vittone 1lt,"31,9060382843",40,No tiene
+341,9,Fresita,"46,9000015259",55,No tiene
+342,9,Vodka Kovac,"33,8251113892",40,No tiene
+343,9,Ginebra Bols,"17,2906150818",50,No tiene
+344,7,Manaos 3000cc,"13,3332996368",18,No tiene
+345,9,Ginebra Llave ch,"32,9005050659",40,No tiene
+346,9,Ginebra Llave gr,"55,9453926086",68,No tiene
+347,9,Grapa Valle Viejo comun,"54,4749946594",70,No tiene
+348,9,Vermouth Martini Rosso,"37,9852752686",50,No tiene
+350,9,Grapa Miel Vesubio,"51,882610321",66,No tiene
+351,3,Champagne Mercier,"39,055557251",50,No tiene
+352,9,Petacas todas,"14,4324645996",18,No tiene
+356,9,Piña Colada Clinton,"43,7513465881",53,No tiene
+357,9,Piña Colada Moonlight,"41,4512329102",50,No tiene
+358,9,Ron Bacardi blanco 1lt,"115,8979644775",140,No tiene
+359,9,Tequila Camacho,"39,9399986267",48,No tiene
+360,9,Tequila Jose Cuervo,"113,7520751953",200,No tiene
+361,9,Tia Maria,"89,0539703369",107,No tiene
+362,9,Vodka Nikov *******,"54,1563606262",65,No tiene
+363,13,Moscato Dada 5,"39,000705719",48,No tiene
+365,13,Cria de Cosechas Magnum tto,"17,5601119995",21,No tiene
+366,9,Vodka Nikov SABORES,"41,3036499023",65,No tiene
+367,9,Whisky Blenders petaca,"19,353225708",24,No tiene
+368,9,Whisky Blenders x 1lt (conseg mejr precio),"69,0144500732",83,No tiene
+369,9,Whisky Criadores x 1lt,"73,4489440918",88,No tiene
+370,3,Champagne Chandon Delice,"116,9923324585",140,No tiene
+371,13,Reservado Concha y Toro,"28,0040493011",35,No tiene
+372,9,Whisky Doble V (W),"37,4066772461",48,No tiene
+373,9,Vodka Hiram Walker,41,50,No tiene
+374,9,Whisky J&B  jyb  j y b,"110,107421875",146,No tiene
+375,9,Whisky Blenders 750cc,"52,9045410156",65,No tiene
+376,9,Whisky Pioneer,"14,0497512817",17,No tiene
+377,9,Amarula chico,"124,1694946289",150,No tiene
+378,3,Cynar,"61,0000915527",78,No tiene
+379,9,Whisky Smuggler PETACA,"5,0999999046",6,No tiene
+380,9,Whisky Vat 69,"53,7237281799",65,No tiene
+387,4,Play,"1,1000000238","1,5",No tiene
+389,4,Mill 20,"1,2000000477","1,5",No tiene
+392,4,Mill 10,"0,6299999952","0,75",No tiene
+393,4,Ka,"1,3999999762","1,5",No tiene
+394,4,Rodeo,"8,4400215149",10,No tiene
+397,4,Business club,"1,2999999523","1,6499999762",No tiene
+398,10,Energy X4 energizante,"9,5816669464",12,No tiene
+399,8,panda,0,3,No tiene
+402,8,Amargo Monasterio 1500cc,"7,7005491257",10,No tiene
+403,4,CJ,"9,5983467102",12,No tiene
+404,8,Amargo Monasterio bidon 5 lts,"23,4875545502",28,No tiene
+406,8,Amargo terma 1250cc,"14,3106460571",18,No tiene
+407,9,Wisky Ballantines,"175,5092926025",210,No tiene
+408,3,Durazno Fizz La Farruca,"14,4903316498",20,No tiene
+409,7,coca 1000 ret vieja,"6,2503175735","4,75",No tiene
+410,3,Sidra La farruca,"10,8908805847",20,No tiene
+411,3,Sidra Rama Caida,"13,5503101349",17,No tiene
+412,3,Sidra Tunuyan,"3,1006314754",5,No tiene
+413,3,Champagne Nieto Brut Senetiner,"83,2043457031",100,No tiene
+414,10,Fosforos Fragata-Rodeo ($1 para vueltos),"1,0288580656","1,5",No tiene
+416,8,Limonada Terma 3000cc,"15,0690126419",20,No tiene
+417,10,Encendedor BX7,"4,7975964546",6,No tiene
+420,1,Soda Bichy,"6,0605998039",8,No tiene
+421,1,xxxxxxx,"7,2966680527",10,No tiene
+423,1,Limonada Terma 400cc,"0,0500000007",5,No tiene
+425,1,Agua Aguita bidon,"10,0007305145",13,No tiene
+426,1,Agua Magna 2 lts,"13,8734493256",18,No tiene
+427,1,Agua Bonaqua 1500cc,"9,6001319885","11,5",No tiene
+428,1,Levite y levite cero,"14,3777942657",18,No tiene
+429,1,Agua Bonaqua 500 cc,"5,8045973778",8,No tiene
+430,5,Americano Gancia 750cc,"28,9500007629",35,No tiene
+431,1,Villavicencio 1500cc,5,10,No tiene
+432,3,Frizze frutas,"15,230055809",20,No tiene
+433,1,Agua Fuente del Milagro Favaloro 2l,"7,6681718826",10,No tiene
+434,1,Agua Villa del Sur bidon,"22,5481109619",28,No tiene
+435,1,Agua Villa San Remo 2000,"8,3365726471",10,No tiene
+436,10,Leña 10 kg,"23,9951705933",30,No tiene
+437,13,Fond de Cave,"71,7671203613",86,No tiene
+439,4,Lucky Strike 20,"23,1878547668",25,No tiene
+443,10,Leña Sin nombre,19,23,No tiene
+444,4,Tabaco Cuatro Leguas,"8,1011619568",10,No tiene
+445,4,Papel fumar OCB blanco,"3,6042945385",5,No tiene
+446,4,Papel fumal OCB negro,"7,8000001907",10,No tiene
+447,4,Papel Smoking,"3,8565349579",5,No tiene
+449,10,Speed energizante,"10,1685276031",13,No tiene
+451,10,Red Bull energizante,"21,1140708923",25,No tiene
+452,9,Wisky Jack Daniels 375cc,107,128,No tiene
+455,10,Mentitas,"0,6111111045","0,75",No tiene
+456,10,Cartas naipes Habana,"25,203830719",30,No tiene
+458,2,Patagonia,"0,0099981651",30,No tiene
+460,2,BOCA ANCHA 500 cc,"15,106502533",18,No tiene
+461,10,Baggio Capuchino,"10,8350000381",13,No tiene
+463,9,Fernet Branca menta 1/2 lt,"35,7009162903",65,No tiene
+465,16,Termidor Bonarda,"1,9900000095","2,5",No tiene
+468,9,Vodka Smirnoff Saborizados,"67,9894332886",100,No tiene
+469,3,Champagne Tocornal Dulce,"28,8639831543",35,No tiene
+470,8,Gatorade bot 473 cc,"10,4005289078",13,No tiene
+471,7,Coca 2500cc descartable,"27,4173412323",33,No tiene
+473,13,Michel Torino seleccion bco,"10,3099079132",15,No tiene
+474,13,Viejo Solar Magnum Canciller,"12,0000085831",16,No tiene
+475,2,Corona 330 cc,"21,2863864899",28,No tiene
+476,10,Preservativo Punticrem clasico,"7,6520805359",10,No tiene
+477,3,Anana Fizz La Farruca,"14,4903316498",20,No tiene
+478,1,Agua Lagoa Vip Bidon,"14,0021705627",18,No tiene
+481,10,RECO ENVASE RETORNABNLE PYS,"5,2510375977",9,No tiene
+483,13,Viñastr BONARDA 3/4,"15,5281457901",21,No tiene
+484,13,Toro Bonarda-Syrah bivarietal,"15,5615110397",20,No tiene
+485,1,Seven h2 0h¡ 1500cc,"15,0000915527",20,No tiene
+486,16,Arriero Rosado,"1,5900000334",2,No tiene
+487,10,Chupetin Corazon,"0,0405000001","0,0500000007",No tiene
+488,9,Vodka Absolute Saborizado,"212,6853485107",350,No tiene
+490,4,Viceroy 20,"17,6101226807",19,No tiene
+491,4,Viceroy 10,"10,1977710724",11,No tiene
+492,9,Bayleys Dce de Leche,300,360,No tiene
+494,9,Gin Hiram Walker,"42,4106330872",50,No tiene
+495,15,Kalik Malbec - Cabernet,13,17,No tiene
+496,9,Ron Bacardi Dorado 1lt,"151,7899932861",190,No tiene
+497,1,Agua Villa del Sur 1650cc,"8,3332996368",10,No tiene
+498,7,Schweppes 1500cc,"18,2257938385",22,No tiene
+499,9,Pisco Mistral,67,80,No tiene
+500,10,Chip Claro,"0,0199999996",10,No tiene
+501,4,43 70 largos,"2,7699999809",3,No tiene
+502,7,Pritty 3000cc,"23,0858078003",28,No tiene
+503,9,Ron Cayman,"51,6801605225",63,No tiene
+504,7,Paso de los toros pomelo,"23,3356018066",30,No tiene
+505,10,Carbon 1 1/2kg,"14,8896064758",18,No tiene
+506,9,Cachaca Velho Barreiro,"121,342048645",145,No tiene
+507,4,Next 20 box,"7,2534570694",22,No tiene
+508,13,Santa Ana blanco,"5,5901832581",7,No tiene
+509,13,Colon Syrah sirah,"24,7999992371",32,No tiene
+510,4,Next 20,"19,0320796967",21,No tiene
+511,13,Colon Chardonay,"26,3433036804",32,No tiene
+512,2,Stella Artois 1 lt,"28,2538967133",38,Cerveza
+513,13,Champagne Nieto Extrabrut Senetiner,"87,4277191162",105,No tiene
+516,9,Full naranpol 500 cc,"0,0007999456",2,No tiene
+517,13,Santa Julia Chenin dce Natural,"52,1310882568",65,No tiene
+518,9,Malibu,154,185,No tiene
+519,13,Colon Sauv blanc,"26,5699996948",32,No tiene
+520,4,Tabaco Richmond,"8,2874135971",10,No tiene
+521,4,Next 10,"3,8041410446",12,No tiene
+522,4,Aberdeen Angus Rose,"9,0069503784",11,No tiene
+523,3,Champagne Federico de Alvear,"22,4799995422",30,No tiene
+525,1,Soda Sifon Saldan,"10,000623703",12,No tiene
+526,13,Luigi Bosca,"131,1350708008",158,No tiene
+527,2,Bieckert 1 lt,"9,2191410065",11,Cerveza
+528,5,Mixx Tail Mojito botella,"28,9572753906",35,No tiene
+529,9,Piña Colada La Triestina,"4,5199999809",6,No tiene
+530,10,Preservativo Tulipan,"3,656275034",5,No tiene
+531,10,Papel El Ombu,"5,3202176094",7,No tiene
+532,13,Bodega Uno Tittarelli TORRONTES,5,7,No tiene
+533,13,Dada (2x $100),"40,026889801",52,No tiene
+535,8,Leviton y Leviton Cero,"17,5607585907",23,Damajuana
+536,10,Carbon 3 kg,20,25,No tiene
+537,1,Soda Saldan 2140 cc,"3,6002771854","4,5",No tiene
+538,5,Pronto,"8,9336385727",12,No tiene
+539,15,Benedetti Blanco Seco y Dulce damaj,"35,6166648865",43,No tiene
+540,13,Dilema,"32,7507743835",40,No tiene
+541,15,Senda del Marquez Tempranillo x 5l,"12,5",14,No tiene
+542,15,Senda del Marquez Cabernet x 5l,"13,25","15,25",No tiene
+543,15,Domingo Hnos Fino Bco damaj,"101,5099487305",122,No tiene
+544,7,Coca Light 500cc desc,"6,3001737595",10,No tiene
+545,9,Whisky White Horse,135,165,No tiene
+546,2,Quilmes Night monjita,"12,8016996384",16,No tiene
+547,13,Lopez Blanco,"21,2401542664",25,No tiene
+548,13,Colon Malbec,"26,5787086487",32,No tiene
+549,13,Trapiche Alaris,"32,2148590088",40,No tiene
+550,13,Michel Torino abocado (et azul),"2,1400001049","2,6500000954",No tiene
+551,7,Doble Cola,"13,3030004501",16,No tiene
+552,9,Vodka Oddka (todos),"68,0137481689",82,No tiene
+553,3,Sidra Real,"14,1003227234",18,No tiene
+554,13,Gato Negro,"14,0815858841",17,No tiene
+555,3,Champagne Navarro Correa,"79,0039901733",95,No tiene
+556,15,Mirko bco,"6,5",7,Damajuana
+557,4,Parisienes 20 box,"24,1067008972",26,No tiene
+558,13,Marsala Florio,"17,7621803284",25,No tiene
+559,13,Santa Florentina DOLCE,"17,0434131622",20,No tiene
+560,5,Red Bitter Gancia,"67,5899963379",81,No tiene
+561,15,Tueris tto,28,33,No tiene
+562,2,Cruzur cerveza de mendiolaza,14,18,No tiene
+563,13,Alma Mora Chardonnay,32,40,No tiene
+564,9,Vodka Smirnoff,"78,8355712891",90,No tiene
+565,15,xxx,"61,0400009155",73,No tiene
+566,1,Agua Naranpol bidon 5 lts,"7,5999999046","6,5",No tiene
+567,15,Don Erndesto blanco dulce,"6,5",8,No tiene
+569,7,Coca Light 1500CC desc,"17,3827838898",22,No tiene
+570,3,Fresa Fizz La Farruca,"14,4903316498",20,No tiene
+571,13,Suc. Abel M Torino MOSCATEL,"8,2402572632",10,No tiene
+572,8,Ades 1lt,"14,5709857941",18,No tiene
+573,4,Marlboro 20 gold,"23,1520004272",26,No tiene
+574,12,Tarjetas CTI $20 Claro,"19,2999992371",20,No tiene
+575,12,Tarjeta Global $10,"9,3253726959",10,No tiene
+576,12,Tarjeta Telecom Recarga $10,"9,3019886017",10,No tiene
+577,13,Dalton,"5,6343207359","6,75",No tiene
+578,13,Martin Fierro Magnum,"17,8109436035","21,5",No tiene
+579,7,Seven h2 0h¡ 2240 cc,"20,6886634827",28,No tiene
+580,7,Paso de los toros  pomelo 1500cc,"10,8000001907",13,No tiene
+581,2,Quilmes 1890,"20,2007884979",27,No tiene
+582,7,Quattro Pomelo 1 1/2 lt,"1,8300000429","2,2000000477",No tiene
+583,9,Piña Colada American Club(Todas),35,42,No tiene
+584,5,MixxTail Mojito lata,"7,6963915825",10,No tiene
+585,7,mirinda 237 cc,"4,0000081062",6,No tiene
+586,1,Soda La moderna 1 1/2  lts,"8,3170995712",10,No tiene
+587,13,Don David,"65,0722045898",90,No tiene
+588,2,Imperial Negra,"25,3899402618",32,No tiene
+589,13,Primera Zona malbeck y cabernet,"7,8299598694","9,5",No tiene
+590,13,Primera Zona chenin,"4,5999999046",7,No tiene
+591,9,Bayleys,288,345,No tiene
+592,1,Twister 500cc,"3,0400912762",4,No tiene
+593,13,Elementos,"34,7374343872",50,No tiene
+594,7,Pepsi 3000 cc,"29,5300807953",36,No tiene
+595,4,Viceroy 20 box,"12,9785490036",20,No tiene
+596,13,Moscato El Abuelo,"11,9001455307",15,No tiene
+597,13,Finca Los Robles Magnum,"12,9705553055",16,No tiene
+598,9,Fernet Branca RETRO 3/4,"89,5011444092",108,No tiene
+599,8,Jugo Dink C polvo,"0,4788585305","0,75",No tiene
+600,1,Soda Secco,"3,8333001137","4,5",No tiene
+601,8,Tropicana x 200 cc,"5,2011814117",6,No tiene
+602,2,Quilmes lata 354 cc,"12,0000572205",13,No tiene
+603,12,Telemundo tarjeta $5,"4,0999999046",5,No tiene
+604,12,Tarjetas movistar $20,"19,5",20,No tiene
+605,9,Ponche Capitan Castilla,"12,5904836655",15,No tiene
+606,9,Cachaca Capoeira,"19,8999996185",25,No tiene
+607,9,So Natural 1lt,"2,120626688","2,75",No tiene
+608,1,Villavicencio 2000cc,"10,8332996368",13,No tiene
+609,9,Dos Anclas Limon jugo de limon,"5,8333001137",8,No tiene
+610,9,Whisky Hiram Walker,"41,6844444275",50,No tiene
+611,13,La Quebrada blanco,"1,9900000095",3,No tiene
+612,13,Orfila 1250cc,"18,6002464294",23,No tiene
+613,10,Mani Krachitos (promocional),"0,0833000019",5,No tiene
+614,13,Astica,"18,6403484344",23,No tiene
+615,13,Colon Bonarda,21,32,No tiene
+616,13,Tocornal,"15,3795175552",20,No tiene
+617,1,Aquarius 3000cc,"16,7906780243",22,No tiene
+618,1,Soda La moderna 2 1/4 lt.,"6,7466564178",8,No tiene
+619,7,Mirinda vidrio,"4,5628566742",6,7up 1 1/4l
+620,10,Papel fumar OCB gris XPERT,"7,1175885201",10,No tiene
+621,12,Tarjetas Movistar $50,49,50,No tiene
+622,12,Chip Personal,"0,0313000008",5,No tiene
+623,9,Ron Cayman Dorado,"40,700630188",63,No tiene
+624,13,Bianchi,"18,5498161316","22,5",No tiene
+625,9,Cinzano Bianco,"34,75",42,No tiene
+626,9,Ron Havana Club habana,109,131,No tiene
+627,2,Isenbeck,"13,5999822617",17,Cerveza
+628,13,Rafael Salafia bonarda malbec,"3,0799999237","3,9000000954",No tiene
+629,9,Wisky Teachers (ya sin vaso),"74,8140563965",90,No tiene
+630,7,Fanta 500cc,"7,8778204918",10,No tiene
+631,7,Rafting 3l,"17,7176742554",22,No tiene
+632,10,chicles hallowen espectros,"0,0399999991","0,0500000007",No tiene
+633,4,Viceroy 20 suaves,"17,6147232056",19,No tiene
+634,15,Sta Eugenia Barbera damajuana,"49,0966415405",60,No tiene
+635,16,Mar de Arenas tinto tetra,"4,9385342598",6,No tiene
+636,8,Gatorade 1250 cc plastico,"23,8641643524",30,No tiene
+637,13,San Roque Magnum,"4,8571429253",6,No tiene
+638,7,Coquitas 120 años,"1,1499999762","1,25",No tiene
+639,7,Paso de los Toros pomelo light 1500 cc,"16,6723060608",20,No tiene
+640,9,Gin Burnett Sir Robert,"66,9881057739",80,No tiene
+641,2,Baltica,"13,6002531052",18,No tiene
+642,2,Quilmes LATA 473 cc,"12,0000715256",15,No tiene
+643,9,Wisky Red Label Johnnie Walker,"128,5369873047",0,No tiene
+644,4,Lucky Strike 10,"12,9842147827",14,No tiene
+645,4,Lucky strike 20 box,"24,1020126343",26,No tiene
+646,9,Fernet Cazalis 750 cc,"4,2300000191",7,No tiene
+647,13,Don bosco LAMBRUSCO MAESTRI,"32,2000007629",39,No tiene
+648,16,Uvita tinto,"1,9299999475","2,5",No tiene
+649,9,Vermouth Martini Bianco,"48,7460746765",66,No tiene
+650,13,Toro Viejo Clasico Magnum,"18,6666183472",24,No tiene
+651,5,Dr Lemon lata,"6,999935627",12,No tiene
+652,13,Benjamin,"37,818145752",45,No tiene
+653,3,Ramita sidra sin alcohol,"8,8217000961","10,5",No tiene
+654,13,Ampakama,"30,0099620819",36,No tiene
+655,13,Oeste Andino chablis,"1,6499999762","1,75",No tiene
+656,13,Oeste Andino borgoña,"1,75","1,75",No tiene
+657,10,Papas Krachitos,6,8,No tiene
+658,9,Americano Marcela,"15,7508163452",20,No tiene
+659,10,Chupetin Pico Dulce,"1,2214207649","1,5",No tiene
+660,1,Awafrut,"4,7833814621",17,No tiene
+661,9,Whisky Johnnie Walker Black Label,489,580,No tiene
+662,9,100 Pipers whisky,"73,6500015259",88,No tiene
+663,12,Tarjetas Personal $30,"29,7000846863",30,No tiene
+664,13,Emilia,"55,4868659973",67,No tiene
+665,12,Tarjetas Movistar $30,"29,2999992371",30,No tiene
+667,1,Colon Tempranillo 3/4,"27,0114994049",32,No tiene
+668,16,Bordolino rosado,"1,4299999475","1,8999999762",No tiene
+669,7,Gaseosa Bichy,"7,5622835159",10,No tiene
+670,9,Whisky Grants,25,37,No tiene
+671,10,Naipes Economicos cartas,"7,5011401176",10,No tiene
+672,2,Imperial monjita,"16,6708831787",0,No tiene
+673,13,San Felipe 375 cc,"8,5800790787","10,5",No tiene
+674,2,Miller descartable,"37,5",45,No tiene
+675,9,Gin Black Prince,"3,9800000191",5,No tiene
+676,9,Cusenier Licores,"35,4503707886",47,No tiene
+677,1,Bonaqua 2000cc,"8,8398389816",12,No tiene
+678,13,Michel Torino Seleccion Rosado,"5,4901790619","6,75",No tiene
+679,9,Ron Bacardi 750cc dorado,"91,7699966431",110,No tiene
+680,13,Moscato Florio,"20,0078983307",25,No tiene
+681,1,Maracuyada H2o! 500cc,4,5,No tiene
+682,13,Cuesta del Madero,"9,6115512848","11,5",No tiene
+683,13,Terrua,"12,5",15,No tiene
+684,13,Velazco tto,"2,9000000954",4,No tiene
+685,7,Seven 3000 cc,"29,5288295746",36,No tiene
+686,12,Tarjeta Telecom Recarga $30,"28,5",30,No tiene
+687,9,Ron Bacardi 750 blanco,"91,7872238159",115,No tiene
+688,1,x,"2,8900001049",5,No tiene
+689,9,Tequila Sol Azteca,"66,0264129639",80,No tiene
+690,9,Licor El Abuelo,21,25,No tiene
+691,16,Vino Caupolican tto,"1,3500000238","1,75",No tiene
+692,16,Vino Caupolican bco,"1,2100000381","1,5",No tiene
+693,4,Milenio,"1,1499999762","1,5",No tiene
+694,7,Coca LIFE 1500cc,"14,1667003632",20,No tiene
+695,9,Coñac Otard Dupuy x 750,"36,2515106201","43,5",No tiene
+696,9,Desconocido,"0","0",No tiene
+697,1,Agua Villa del Sur 500cc,"5,722099781",8,No tiene
+698,10,Vaso Coca,"15,0389842987",15,No tiene
+699,7,Talca 1500cc VIDRIO,"4,6309194565",6,No tiene
+700,13,Quara,"31,8072605133",40,No tiene
+701,13,Wish espumante blanco,"4,6399998665",6,No tiene
+702,10,encendedor Talio,"3,5",5,No tiene
+703,10,Tarjeta Linea,"4,3000001907",5,No tiene
+704,1,Glaciar 1500 cc,"3,5643415451","4,25",No tiene
+705,7,Paso de los toros tonica 237 cc,"4,0000300407",6,No tiene
+706,3,Murville Espumante,"5,8400001526",7,No tiene
+707,2,Imperial Rubia,"23,8419895172",30,No tiene
+708,13,Suelo A. Malbeck - Sirah - Cabernet,"6,5",8,No tiene
+709,12,Tarjetas CTI $30 Claro,"28,75",30,No tiene
+710,10,chicles gummers bolita,"0,0505656563","0,1000000015",No tiene
+711,7,Pepsi 1500cc,"16,6665496826",20,No tiene
+712,13,Domingo Hnos 3/4,"21,985168457",27,No tiene
+713,13,Santa Isabel,"8,1554441452",10,No tiene
+714,13,Misterio Lata,"18,801317215","22,5",No tiene
+715,2,Quilmes Night 1lt,"24,3470993042",30,No tiene
+716,11,Remera Quilmes Rock,16,16,No tiene
+717,7,Schweppes 2250cc,"20,4200630188",26,No tiene
+718,13,Valderroble Magnum,"13,3798551559",17,No tiene
+719,2,Negra Modelo,"2,5067949295",9,No tiene
+720,3,Champagne Montchenot,"80,0012207031",96,No tiene
+721,13,Patero 3/4,"15,6577291489",20,Damajuana
+722,15,Jorge Tello tinto,23,27,Damajuana
+723,15,Damajuana Abel Furlan Malbec,12,14,Damajuana
+724,13,Tocornal 1250cc,"19,5072536469",28,No tiene
+725,12,Tarjeta CTI $40 Claro,39,40,No tiene
+726,7,Doble Cola 3l,"17,7126274109",22,No tiene
+727,2,Quilmes Stout,"24,1667003632",28,Cerveza
+728,7,Seven 2250cc oferta,"23,3421821594",30,No tiene
+729,13,Santa Julia tinto,"38,605381012",48,No tiene
+730,13,Santa Julia Chardonnay,"38,3316497803",46,No tiene
+731,7,Hook Cola x 2 1/4 lt,"11,1695594788",15,No tiene
+732,1,soda kin,"3,3333001137","4,5",No tiene
+733,13,Cavas San Julian,"13,9499998093",17,No tiene
+734,7,Sprite 500cc,"8,150967598",10,No tiene
+735,16,Talacasto blanco dulce,"2,7632517815","3,5",No tiene
+736,15,Duret ROBLE,"50,7181091309",60,Damajuana
+737,1,Levite 600cc,"5,8332796097",8,No tiene
+738,13,San Felipe,"15,713092804",19,No tiene
+739,13,Cafayate Cosecha Tardia,"34,8506698608",42,No tiene
+740,13,Colon Dulce Fresco,"26,5754566193",32,No tiene
+741,12,Tarjeta CTI $50 Claro,"48,5",50,No tiene
+742,7,Coca Zero 2250cc,"25,234910965",32,No tiene
+743,13,Finca La linda,"33,9688835144",41,No tiene
+744,3,Champagne Viña Mayor dulce,"39,9967651367",48,No tiene
+745,7,"lata Sev, Pep, Paso","6,0082569122",8,No tiene
+746,13,Toro Bonarda-syrah bivarietal 1 1/4 lts magnum,"23,9527854919",30,No tiene
+747,2,Boris lata (francia),"15,6005430222",18,No tiene
+748,3,Chatel Nouve,7,"8,5",No tiene
+749,10,Mani Varitos,"4,9000000954",6,No tiene
+750,15,Rodeano blanco de bodegas collar de sandias,6,"7,5",No tiene
+751,1,Vida,"3,7300000191",5,No tiene
+752,15,Parrales de chilecito tinto damajuana,"9,8999996185","11,75",No tiene
+753,13,Oporto El abuelo,"45,380645752",50,No tiene
+754,3,Anana Fizz SIN ALCOHOL La Farruca,"13,9903202057",20,No tiene
+755,3,Champagne Baron B,"99,4234085083",120,No tiene
+756,13,Aberdeen Angus Malbeck,"9,0163259506",12,No tiene
+757,3,Champagne Haroldos,"41,6333465576",55,No tiene
+758,3,Sidra SIN ALCOHOL La Farruca,"13,9903202057",17,No tiene
+759,4,Virginia Slims box,"26,8601703644",29,No tiene
+760,10,V Vitaliza energizante,"4,9166998863",6,No tiene
+761,1,Pureza Vital Nestle,"5,3914575577",7,No tiene
+762,4,Dunhill convertibles,"8,6105041504",11,No tiene
+763,7,Quatro 1500 cc,"3,750099659","4,5",No tiene
+764,4,Philip Morris 20 box  CAPS convertibles,"22,2369594574",24,No tiene
+765,7,Sprite 1500 cc,"17,7799625397",22,No tiene
+766,12,Teletel $10,"9,3000001907",10,No tiene
+767,2,Quilmes Historica,"3,2100000381",4,No tiene
+768,8,Citric 1 lt,"20,8331203461",25,No tiene
+769,1,Boog sobre,"1,5","1,75",No tiene
+770,7,Paso de los Toros 1500 cc,"9,1686315536",11,No tiene
+771,13,Aguma,"14,8206853867",19,No tiene
+772,13,Hereford,"17,9949073792",22,No tiene
+773,13,Nieto Senetiner 3/4,"69,5416870117",85,Cerveza
+774,8,Citric 500cc,12,15,No tiene
+775,12,Tarjetas Personal $40,"39,5137290955",40,No tiene
+776,4,Lucky Strike 20 Convertible comun,"13,9065170288",26,No tiene
+777,8,Citric bidon 3l,"51,1312065125",63,No tiene
+778,9,Whisky Chivas Regal,160,195,No tiene
+779,7,Cepita 300cc botella,"6,930999279",10,No tiene
+780,1,Villavicencio 500cc,"5,3703665733",7,No tiene
+781,1,Villavicencio SPORT 750 cc,"7,5192742348",10,No tiene
+782,9,Gancia One,"21,8505649567",28,No tiene
+783,1,Magna 1500 cc,"1,6710995436",3,No tiene
+784,9,Fernet Ramazzoti,"14,7700004578",17,No tiene
+785,13,Puente Escondido Magnum,"16,4166660309",20,No tiene
+786,13,Omnium 3/4,"28,5",36,No tiene
+787,1,Soda Sifon Manaos,"9,8485002518",12,No tiene
+788,7,Paso de los Toros light 500 cc.,"7,2014160156",10,No tiene
+789,13,Saenz Borgoña,2,"2,5",No tiene
+790,13,La Catedra Cabernet y Malbeck magnum,"6,3503513336","7,75",No tiene
+791,13,Etchart Privado torrontes,"26,0767002106",33,No tiene
+792,13,Reserva de Familia Los Haroldos,53,70,No tiene
+793,16,Toro Rosado,"12,0808410645",15,No tiene
+794,13,Vasco Viejo tinto,"22,9292984009",28,No tiene
+795,13,Vasco Viejo blanco,"8,3031549454",10,No tiene
+796,9,Gin New Stlye,"5,5399999619","6,75",No tiene
+797,9,Gin Brighton,"5,9000000954",7,No tiene
+798,13,Tribu,"27,5011234283",35,No tiene
+799,4,Philip Morris 15 box,"5,3242931366",20,No tiene
+800,7,Tiklin pomelo,"0,8299999833",1,No tiene
+801,1,Soda Mocoreta 2lt,"1,2152863741","1,75",No tiene
+802,13,Alma Mora con estuche,"61,9694633484",75,No tiene
+803,7,MINI Lata coca,"5,3192682266",7,No tiene
+804,1,Livra 1500cc libra,"0,1667000055",12,No tiene
+805,10,Topline chicles,"2,3968045712",3,No tiene
+806,13,Norton Cosecha Tardia,"18,3299999237",22,No tiene
+807,9,Amarula grande,340,400,No tiene
+808,3,Fritz Wine,"6,25","7,5",No tiene
+809,13,"Pequeña Vasija 1,5 lt","9,3100004196","11,75",No tiene
+810,13,Santa Julia ESTUCHE (2u.),60,70,No tiene
+811,8,Amargo Tacconi,"10,4281692505",13,No tiene
+812,13,Lopez tinto,"39,3694152832",48,No tiene
+813,13,Furlotti,"14,8999996185",18,No tiene
+814,10,Caja Madera Vinos Argentinos,23,25,No tiene
+815,15,Don Manuel Cabernet,30,42,Damajuana
+816,13,Viñastr ROSADO 3/4 (bonarda-sirah),"17,5215511322",21,No tiene
+817,1,Vodka Absolut,183,270,No tiene
+818,13,Finca La Delfina,"33,8493270874",40,No tiene
+819,9,Piña Colada American Club sabores,"41,7601928711",50,No tiene
+820,1,Aquarius 500cc,"5,55986166",8,No tiene
+821,4,Lucky Strike 20 box Doble Click,"25,0317001343",27,No tiene
+822,3,Frizze Evolution,"24,8565711975",30,No tiene
+823,8,Rinde Dos,"2,7235796452","3,5",No tiene
+824,13,Finca Las Moras,"32,0828094482",40,No tiene
+825,1,So Natural Re culito,"0,7200000286",1,No tiene
+826,9,americano Padilla,"3,7597837448","4,5",No tiene
+827,9,Campari,"82,478477478",100,No tiene
+828,9,Mariposa licor,"10,410399437","12,5",No tiene
+829,9,Campari 500cc,"55,9888038635",68,No tiene
+830,11,Pritty cofre box taper,"19,0042095184",20,No tiene
+831,13,Cafayate,36,43,No tiene
+832,10,Carbon 4kg,"23,9996910095",30,No tiene
+833,10,carbon 5 kg,"22,7619037628",28,No Tiene
+834,9,Lemoncello Cusenier,"17,3387851715",21,No Tiene
+835,13,Rumbos,"6,3000001907","7,5",No Tiene
+836,10,Minerva 250cc,"5,4999775887",7,Damajuana
+837,9,Whisky Smuggler 1lt,"39,7208480835",48,No Tiene
+838,13,Fantelli Rosado 3/4,20,25,No Tiene
+839,7,Fanta Zero 1500cc,"18,332036972",22,No Tiene
+840,13,Estate Los Haroldos,40,50,No Tiene
+841,12,Tarjetas Movistar 12,"11,6999998093",12,No Tiene
+842,9,Caña quemada Quemaita,"4,8099999428",6,No Tiene
+843,15,Crotta bco,25,30,No Tiene
+844,2,Warsteiner descartable,"29,1667003632",35,No Tiene
+845,4,Viceroy 10 ice,"3,4719560146",11,No Tiene
+846,7,Mirinda 500 cc,"4,000023365","4,75",No Tiene
+847,13,Pied de Vigne,"1,5",2,No Tiene
+848,8,Gatorade 500 cc bot plastico,"11,2012643814",15,No Tiene
+849,13,Santa Julia RESERVA,35,50,No Tiene
+850,7,Sprite Zero 1500cc,"18,332036972",22,No Tiene
+851,7,Secco,"7,5833001137",9,No Tiene
+852,7,CGrey,"11,5832996368",14,No Tiene
+853,8,Baggio 200 CC,"3,7788593769",5,No Tiene
+854,4,Lucky Strikes 10 Doble click,"13,4429998398","14,5",No Tiene
+855,7,Cepita 1000cc tetra,"9,8115520477",15,No Tiene
+856,7,Coca Zero Vidrio,"12,4999294281",15,No Tiene
+857,13,Asterisco Los Haroldos,26,30,No Tiene
+858,8,Cepita 1500cc botella,"19,2452850342",25,No Tiene
+859,7,Fanta 1500cc,"11,2499628067",14,No Tiene
+860,2,"Lata OFERTA cord, bud, schn","8,0716123581",10,No Tiene
+861,2,Iguana Descartable Summer,"28,817029953",35,No Tiene
+862,10,Encendedor Tic Tac (flores),3,4,No Tiene
+863,9,1882,0,0,No Tiene
+864,16,Don Ernesto blanco tetra,"10,1667003632",13,No Tiene
+865,13,Postales del Fin del Mundo,"24,9905185699",30,No Tiene
+866,2,Schneider,"16,5009231567",20,No Tiene
+867,10,Lata Brahma 473cc,"11,2004060745",14,No Tiene
+868,10,Chicle Open Candy,"0,0396312587","0,1000000015",No Tiene
+869,15,Jorge Tello blanco,"16,8600006104",22,No Tiene
+870,13,Santa Maria malbeck,0,3,No Tiene
+871,13,Viñastr TORRONTES 3/4,"17,5423469543",21,No Tiene
+872,9,Tango licor fino,"16,0598220825",20,No Tiene
+873,5,Granadina Peters,"23,0097446442",28,No Tiene
+874,13,Finca Grande,"23,041053772",28,No Tiene
+875,10,Chupetin Con Tatuaje,"0,0974999964","0,150000006",No Tiene
+876,13,Pecado,"24,0111408234",30,No Tiene
+877,10,Corona 710 cc,"36,8732032776",50,No Tiene
+878,13,Serie Terra,"38,8547668457",48,No Tiene
+879,10,Reaktor energizante Reactor,"7,5",10,No Tiene
+880,13,Baron del Plata,"2,2712545395",3,No Tiene
+881,13,Alma Mora,"38,4314918518",50,No Tiene
+882,13,Finca Beltran Duo,"6,5999999046",8,No Tiene
+883,7,Seven Free 2250cc oferta,"23,3419036865",30,No Tiene
+884,10,Encendedor Magiclick,"5,0513253212",6,No Tiene
+885,4,Red Point,"9,9679584503",14,No Tiene
+886,5,xxxx,"11,5143003464",15,No Tiene
