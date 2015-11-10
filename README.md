@@ -1,4 +1,5 @@
-# despensa-sierras-chicas
+# Precios, compras y ventas 
+En una despensa de Sierras Chicas (Córdoba, Argentina).  
 Datos 2008/2015 de ventas por tipos de productos de un comercio de bebidas de Sierras Chicas - Córdoba.  
 
 Los datos de base son los CSVs Productos y TipoProductos.  
