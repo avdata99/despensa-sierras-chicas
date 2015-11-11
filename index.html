@@ -1,0 +1,130 @@
+<html>
+<head>
+   <title>Google Chart Example</title>
+   <script src="https://www.google.com/jsapi"></script>
+   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <!-- choreo desde https://blog.smalldo.gs/2013/04/google-chart-tools-walkthrough-part-3/ -->
+
+   <script src="https://jquery-csv.googlecode.com/files/jquery.csv-0.71.js"></script>
+   <script type='text/javascript'>
+   // load the visualization library from Google and set a listener
+   google.load("visualization", "1", {packages:["corechart", "controls"]});
+   google.setOnLoadCallback(drawChartfromCSV);
+
+   function parseDate(value, state){
+       if (state.rowNum == 1) return false;
+       if (state.colNum == 1) {
+       partes = value.split('-');
+       if (partes.length < 2) return false;
+       return new Date(parseInt(partes[0]), parseInt(partes[1])-1, parseInt(partes[2]));
+       }
+       else
+           return parseFloat(value);
+        }
+  
+   function drawChartfromCSV(prod, titulo){
+       prod = prod || 328;
+       titulo = titulo || '';
+         var xhr = $.get("data/ventas_diarias_prod_"+prod+".csv");
+        xhr.done(function(csvString) {
+         
+         var arrayData = $.csv.toArrays(csvString, {onParseValue: parseDate});
+         arrayData.shift(); //remove headers
+         var data = new google.visualization.arrayToDataTable(arrayData, true);
+         
+         data.setColumnLabel(0, 'dia');
+         data.setColumnLabel(1, titulo);
+          
+            // Create a dashboard.
+            var dash_container = document.getElementById('dashboard_div');
+            var myDashboard = new google.visualization.Dashboard(dash_container);
+        
+            // Create a date range slider
+          var myDateSlider = new google.visualization.ControlWrapper({
+            'controlType': 'ChartRangeFilter',
+            'containerId': 'control_div',
+            'options': {
+              'filterColumnLabel': 'dia'
+            }
+          });
+        
+          // Table visualization
+          var myTable = new google.visualization.ChartWrapper({
+            'chartType' : 'Table',
+            'containerId' : 'table_div'
+          });
+        
+          // Bind myTable to the dashboard, and to the controls
+          // this will make sure our table is update when our date changes
+          myDashboard.bind(myDateSlider, myTable);
+        
+          // Line chart visualization
+          var myLine = new google.visualization.ChartWrapper({
+            'chartType' : 'ColumnChart',
+            'containerId' : 'line_div',
+          });
+          
+          // Bind myLine to the dashboard, and to the controls
+          // this will make sure our line chart is update when our date changes
+          myDashboard.bind(myDateSlider, myLine );
+
+          var options = {title: titulo, legend: titulo}
+          myDashboard.draw(data, options);
+          
+          $("#dashboard_div").show();
+         });
+         xhr.fail(function(){
+             $("#dashboard_div").hide();
+             });
+
+   }
+
+    function getProducts(){
+        var productos=[];
+        $.get("Productos.csv", function(csvString) {
+            var arrayData = $.csv.toArrays(csvString);
+            arrayData.shift(); //remove headers
+
+            $.each(arrayData, function(i, prods){
+                var id = parseInt(prods[0]);
+                if (id > 0) {
+                    productos[id] = prods[2];
+                    var line = '<option value="'+id+'">'+prods[2]+'</option>';
+                    $('#sel_productos').append(line);
+                    }
+                });
+            return productos;
+            });
+        }
+   
+
+    $(function() {
+        var productos = getProducts();
+        $("#sel_productos").change(function(){
+            var text=$( "#sel_productos option:selected" ).text();
+            drawChartfromCSV(this.value, text);
+            $("#ttitle").html(text);
+            });
+        drawChartfromCSV(328, 'Fernet Branca 3/4');
+        
+    });
+
+   
+   </script>
+</head>
+<body>
+    <h2 id="ttitle"></h2>
+    <div>
+        <select id='sel_productos'>
+        <option value=0> - </option>
+        </select>
+    </div>
+    <div id="dashboard_div">
+        <div id="control_div" style='height:100px; width:950px;'><!-- Controls renders here --></div>
+        <div id="line_div" style='height:300px; width:950px;'><!-- Line chart renders here --></div>
+        <div id="table_div" style='height:200px; width:550px;'><!-- Table renders here --></div>
+    </div>
+
+
+</body>
+</html>

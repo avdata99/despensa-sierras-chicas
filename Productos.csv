@@ -204,6 +204,8 @@ ID,IdTipoProducto,nProducto,pCosto,pVenta,CodEnvase
 216,13,Estancia Mendoza,"19,887386322",26,No tiene
 217,13,Vieja Mendoza,"14,1667003632",17,No tiene
 220,3,Frizze blanco,"14,1000003815",18,No tiene
+221,4,Desconocido,"0","0",No tiene
+222,4,Desconocido,"0","0",No tiene
 223,13,Giol bco,"1,3200000525","1,6000000238",No tiene
 224,13,Giol tto,"1,5099999905","1,75",No tiene
 225,13,El Supremo,17,21,No tiene
@@ -591,6 +593,7 @@ ID,IdTipoProducto,nProducto,pCosto,pVenta,CodEnvase
 663,12,Tarjetas Personal $30,"29,7000846863",30,No tiene
 664,13,Emilia,"55,4868659973",67,No tiene
 665,12,Tarjetas Movistar $30,"29,2999992371",30,No tiene
+666,4,Desconocido,"0","0",No tiene
 667,1,Colon Tempranillo 3/4,"27,0114994049",32,No tiene
 668,16,Bordolino rosado,"1,4299999475","1,8999999762",No tiene
 669,7,Gaseosa Bichy,"7,5622835159",10,No tiene

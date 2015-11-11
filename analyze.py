@@ -10,7 +10,7 @@ path_compras = 'Compras.csv'
 path_ventas = 'Ventas.csv'
 
 ventas = {}
-for y in range(2008, 2016):
+for y in range(2007, 2016):
     for m in range(1, 13):
         mes = '%d-%s' % (y, str(m).zfill(2))
         ventas[mes] = 0
@@ -38,6 +38,7 @@ with open(path_productos) as csvfile:
                                 'compras': [], 
                                 'ventas': [],
                                 'ventas_mensuales': ventas.copy(), # cantidad de unidades vendidas por mes
+                                'ventas_diarias': {}, # cantidad de unidades vendidas por mes
                                 'precios_mensuales': ventas.copy() # precios de cada mes
                                 }
 
@@ -69,6 +70,11 @@ with open(path_ventas) as csvfile:
         dia, mes, ano = row['Fecha'].split('/')
         m = '%s-%s' % (ano, mes)
         producto['ventas_mensuales'][m] = producto['ventas_mensuales'][m] + cantidad
+        d = '%s-%s-%s' % (ano, mes, dia)
+        if not producto['ventas_diarias'].get(d, None):
+            producto['ventas_diarias'][d] = 0
+        producto['ventas_diarias'][d] = producto['ventas_diarias'][d] + cantidad
+            
         if precio > 0:
             producto['precios_mensuales'][m] = precio/cantidad # toma una cualquiera del mes
         
@@ -102,19 +108,30 @@ for p, producto in productos.iteritems():
             for venta in producto['ventas']:
                 writer.writerow(venta)
 
+        fname = 'data/ventas_diarias_prod_%s.csv' % p
+        with open(fname, 'w') as csvfile:
+            fieldnames = ['dia', 'ventas']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        
+            writer.writeheader()
+            # for dia, vtas in producto['ventas_diarias'].iteritems():
+            for vtas in sorted(producto['ventas_diarias']):
+                venta = {'dia': vtas, 'ventas': producto['ventas_diarias'][vtas]}
+                writer.writerow(venta)
+
 # variedad de ventas de productos por tipo y cantidad
 for t, tipo in tipos.iteritems():
     tipo_nombre = slugify(tipo['nombre'].decode('utf-8'))
 
     fname = 'data/tipo_%s_ventas.csv' % tipo_nombre
     with open(fname, 'w') as csvfile:
-        fieldnames = ['producto'] + sorted(ventas.keys())
+        fieldnames = ['producto', 'id'] + sorted(ventas.keys())
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     
         writer.writeheader()
         for p in tipo['productos']:
             prod = productos[p]
-            row = {'producto': prod['nombre']}
+            row = {'producto': prod['nombre'], 'id': p}
             row.update(prod['ventas_mensuales'])
             writer.writerow(row)
 
