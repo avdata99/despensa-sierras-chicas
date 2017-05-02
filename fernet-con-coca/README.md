@@ -36,7 +36,7 @@ Basado en _Productos.csv_.
 * algunas cocas mas chicas no se usan 
 
 Como varíá mucho entre díás el resultado del análisis da resultados por día de la semana.  
-El script que analiza estos datos está [aquí]().  
+El script que analiza estos datos está [aquí](analyze.py).  
 Los resultados son:  
 
 ```
