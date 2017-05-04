@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-cruzar datos de ventas en un mismo ticket de fernets y coca
-"""
 import csv
 from datetime import datetime
 
