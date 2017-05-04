@@ -38,13 +38,12 @@ with open(path_ventas) as csvfile:
         if int(idp) in productos_a_analizar:
             if dia_sem not in vta_gatorade.keys():
                 vta_gatorade[dia_sem] = {idp: 0}
-            elif idp not in vta_gatorade[dia_sem]:
+            if idp not in vta_gatorade[dia_sem].keys():
                 vta_gatorade[dia_sem][idp] = 0
 
-            vta_gatorade[dia_sem][idp] += 1
+            cantidad = int(row['Cantidad'])
+            vta_gatorade[dia_sem][idp] += cantidad
 
-        
-print vta_gatorade
 for dia in vta_gatorade.keys():
 
     print " ***************************** "

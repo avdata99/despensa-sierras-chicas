@@ -18,46 +18,46 @@ El script que analiza estos datos está [aquí](analyze.py).
 Los resultados son:  
 
 ```
- ***************************** 
- Saturday 
- VENTA DE Gatorade bot 473 cc: 220
- VENTA DE Gatorade 1250 cc plastico: 120
- VENTA DE Gatorade 500 cc bot plastico: 25
- VENTA TOTAL DE GATORADE: 365
- ***************************** 
- Tuesday 
- VENTA DE Gatorade bot 473 cc: 177
- VENTA DE Gatorade 1250 cc plastico: 121
- VENTA DE Gatorade 500 cc bot plastico: 24
- VENTA TOTAL DE GATORADE: 322
- ***************************** 
- Friday 
- VENTA DE Gatorade bot 473 cc: 190
- VENTA DE Gatorade 1250 cc plastico: 98
- VENTA DE Gatorade 500 cc bot plastico: 20
- VENTA TOTAL DE GATORADE: 308
- ***************************** 
- Monday 
- VENTA DE Gatorade bot 473 cc: 175
- VENTA DE Gatorade 1250 cc plastico: 103
- VENTA DE Gatorade 500 cc bot plastico: 10
- VENTA TOTAL DE GATORADE: 288
- ***************************** 
- Thursday 
- VENTA DE Gatorade bot 473 cc: 148
- VENTA DE Gatorade 1250 cc plastico: 114
- VENTA DE Gatorade 500 cc bot plastico: 12
- VENTA TOTAL DE GATORADE: 274
- ***************************** 
- Wednesday 
- VENTA DE Gatorade bot 473 cc: 144
- VENTA DE Gatorade 1250 cc plastico: 96
- VENTA DE Gatorade 500 cc bot plastico: 15
- VENTA TOTAL DE GATORADE: 255
- ***************************** 
- Sunday 
- VENTA DE Gatorade bot 473 cc: 154
- VENTA DE Gatorade 1250 cc plastico: 64
- VENTA DE Gatorade 500 cc bot plastico: 8
- VENTA TOTAL DE GATORADE: 226
+***************************** 
+Monday 
+VENTA DE Gatorade bot 473 cc: 219
+VENTA DE Gatorade 1250 cc plastico: 109
+VENTA DE Gatorade 500 cc bot plastico: 16
+VENTA TOTAL DE GATORADE: 344
+***************************** 
+Tuesday 
+VENTA DE Gatorade bot 473 cc: 194
+VENTA DE Gatorade 1250 cc plastico: 128
+VENTA DE Gatorade 500 cc bot plastico: 27
+VENTA TOTAL DE GATORADE: 349
+***************************** 
+Friday 
+VENTA DE Gatorade bot 473 cc: 223
+VENTA DE Gatorade 1250 cc plastico: 102
+VENTA DE Gatorade 500 cc bot plastico: 23
+VENTA TOTAL DE GATORADE: 348
+***************************** 
+Wednesday 
+VENTA DE Gatorade bot 473 cc: 166
+VENTA DE Gatorade 1250 cc plastico: 102
+VENTA DE Gatorade 500 cc bot plastico: 16
+VENTA TOTAL DE GATORADE: 284
+***************************** 
+Thursday 
+VENTA DE Gatorade bot 473 cc: 182
+VENTA DE Gatorade 1250 cc plastico: 121
+VENTA DE Gatorade 500 cc bot plastico: 14
+VENTA TOTAL DE GATORADE: 317
+***************************** 
+Sunday 
+VENTA DE Gatorade bot 473 cc: 176
+VENTA DE Gatorade 1250 cc plastico: 77
+VENTA DE Gatorade 500 cc bot plastico: 8
+VENTA TOTAL DE GATORADE: 261
+***************************** 
+Saturday 
+VENTA DE Gatorade bot 473 cc: 267
+VENTA DE Gatorade 1250 cc plastico: 126
+VENTA DE Gatorade 500 cc bot plastico: 33
+VENTA TOTAL DE GATORADE: 426
 ```
