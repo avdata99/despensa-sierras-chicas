@@ -9,9 +9,9 @@ Se analizan todas las ventas y se grupan po días
 
 ### Códigos de productos Fernet
 Basado en _Productos.csv_.  
- - 470,8,Gatorade bot 473 cc,"10,4005289078",13,No tiene
- - 636,8,Gatorade 1250 cc plastico,"23,8641643524",30,No tiene
- - 848,8,Gatorade 500 cc bot plastico,"11,2012643814",15,No Tiene
+ - 470,8,Gatorade bot 473 cc
+ - 636,8,Gatorade 1250 cc plastico
+ - 848,8,Gatorade 500 cc bot plastico
 
 
 El script que analiza estos datos está [aquí](analyze.py).  
