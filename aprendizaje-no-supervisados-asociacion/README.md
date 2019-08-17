@@ -22,6 +22,28 @@ python3 asociar-categorias.py
 {Extras} -> {Gaseosas} (conf: 0.533, supp: 0.031, lift: 1.325, conv: 1.279)
 ```
 
+Estos son las categorías de productos:
+
+ID2,TipoProducto
+ - -1,Extras
+ - 1,Aguas - Sodas
+ - 2,Cerveza
+ - 3,Champ-Sidras-Espumantes
+ - 4,Cigarrillos
+ - 5,Cocteles
+ - 6,Envases
+ - 7,Gaseosas
+ - 8,Jugos - Amargos
+ - 9,Licores - Fernet - etc
+ - 10,Otros
+ - 11,Promociones
+ - 12,Tarjetas
+ - 13,Vino 3/4
+ - 14,Vino Botella
+ - 15,Vino Damajuana
+ - 16,Vino Tetra
+
+
 ## Por productos
 
 ```
