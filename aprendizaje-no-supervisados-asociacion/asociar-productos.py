@@ -41,6 +41,19 @@ ID,IdTipoProducto,nProducto,pCosto,pVenta,CodEnvase
 885,4,Red Point,"9,9679584503",14,No Tiene
 """
 
+# TipoProductos.csv 
+"""
+ID2,TipoProducto
+1,Aguas - Sodas
+2,Cerveza
+3,Champ-Sidras-Espumantes
+4,Cigarrillos
+5,Cocteles
+6,Envases
+7,Gaseosas
+8,Jugos - Amargos
+"""
+
 def size(obj):
     return "{0:.2f} MB".format(sys.getsizeof(obj) / (1000 * 1000))
 
@@ -51,15 +64,30 @@ display(orders.head())
 items_names = pd.read_csv('../Productos.csv')
 display(items_names.head())
 
-#decodificar el nombre de los productos
+items_type_names = pd.read_csv('../TipoProductos.csv')
+display(items_type_names.head())
+
+# agregar el tipo de producto a la tabla de productos
+item_and_types = pd.merge(items_names[['ID','IdTipoProducto', 'nProducto']],
+                      items_type_names[['ID2','TipoProducto']],
+                      left_on='IdTipoProducto',
+                      right_on='ID2',
+                      how='inner')
+
+# decodificar el nombre de los productos
 compras_df = pd.merge(orders[['IDVenta','IDproducto']],
-                      items_names[['ID','nProducto']],
+                      # items_names[['ID','nProducto']],  # aqui es para hacer por productos (da muy poco)
+                      item_and_types[['ID', 'IdTipoProducto', 'TipoProducto']],
                       left_on='IDproducto',
                       right_on='ID',
                       how='inner')
 
+
+
 print('----------------Compras DF------------------------')
-compras_df = compras_df[['IDVenta', 'IDproducto', 'nProducto']]
+# aca es con productos directo, da poco
+# compras_df = compras_df[['IDVenta', 'IDproducto', 'nProducto']]
+compras_df = compras_df[['IDVenta', 'IdTipoProducto', 'TipoProducto']]
 
 display(compras_df.head())
 compras_df=compras_df.sort_values(by='IDVenta',
@@ -85,8 +113,8 @@ print(transactions[:20])
 from efficient_apriori import apriori
 # wARNING-CUIDADO!! no poner min_support pequeño como por ejempo 0.001!!
 # min_support y min_confiden entre 0 y 1
-min_support = 0.01
-min_confidence = 0.03  
+min_support = 0.05
+min_confidence = 0.2
 itemsets, rules = apriori(transactions, min_support=min_support,  min_confidence=min_confidence)
 
 print(f'------------- RULES Support:{min_support} Confidence:{min_confidence}-----------------')
