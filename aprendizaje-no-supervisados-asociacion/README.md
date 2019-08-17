@@ -50,6 +50,8 @@ ID2,TipoProducto
 python3 asociar-productos.py
 
 ------------- RULES Support:0.001 Confidence:0.001-----------------
+
+######## Esperable, Fernet con Coca:
 {Coca 2l ret} -> {Descuentos, Fernet Branca 3/4} (conf: 0.010, supp: 0.001, lift: 3.403, conv: 1.007)
 {Fernet Branca 3/4} -> {Coca 2l ret} (conf: 0.368, supp: 0.007, lift: 3.142, conv: 1.397)
 {Fernet Branca 1/2 l} -> {Coca 2l ret} (conf: 0.319, supp: 0.004, lift: 2.726, conv: 1.297)
@@ -57,9 +59,12 @@ python3 asociar-productos.py
 {Toro Tinto tetra} -> {Soda Sifon Manaos} (conf: 0.044, supp: 0.002, lift: 3.517, conv: 1.033)
 
 {Pritty 2 1/4 l} -> {Balbo Magnum} (conf: 0.044, supp: 0.001, lift: 2.281, conv: 1.026)
-
-{Don Ernesto tinto tetra} -> {Richmond} (conf: 0.442, supp: 0.002, lift: 40.388, conv: 1.773)
 {Toro Tinto tetra} -> {Toro Blanco tetra} (conf: 0.042, supp: 0.002, lift: 2.343, conv: 1.025)
+
+#### Que????
+{Don Ernesto tinto tetra} -> {Richmond} (conf: 0.442, supp: 0.002, lift: 40.388, conv: 1.773)
+
+
 
 {Descuentos} -> {Coca 2l ret, Pritty 2 1/4 l} (conf: 0.021, supp: 0.001, lift: 5.412, conv: 1.018)
 {Coca 2l ret} -> {Carragal tto} (conf: 0.009, supp: 0.001, lift: 0.601, conv: 0.994)
