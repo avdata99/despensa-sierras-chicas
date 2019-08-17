@@ -4,6 +4,7 @@ Asociación por tipos o categorías de productos.
 
 ```
 ------------- RULES Support:0.01 Confidence:0.3-----------------
+{Licores - Fernet - etc} -> {Gaseosas} (conf: 0.611, supp: 0.037, lift: 1.519, conv: 1.536)
 {Cigarrillos, Vino Tetra} -> {Gaseosas} (conf: 0.334, supp: 0.010, lift: 0.831, conv: 0.898)
 {Otros} -> {Gaseosas} (conf: 0.335, supp: 0.020, lift: 0.833, conv: 0.899)
 {Cerveza} -> {Gaseosas} (conf: 0.340, supp: 0.062, lift: 0.845, conv: 0.905)
@@ -12,5 +13,4 @@ Asociación por tipos o categorías de productos.
 {Vino 3/4} -> {Gaseosas} (conf: 0.363, supp: 0.043, lift: 0.903, conv: 0.939)
 {Vino Tetra} -> {Gaseosas} (conf: 0.370, supp: 0.043, lift: 0.919, conv: 0.949)
 {Extras} -> {Gaseosas} (conf: 0.533, supp: 0.031, lift: 1.325, conv: 1.279)
-{Licores - Fernet - etc} -> {Gaseosas} (conf: 0.611, supp: 0.037, lift: 1.519, conv: 1.536)
 ```
