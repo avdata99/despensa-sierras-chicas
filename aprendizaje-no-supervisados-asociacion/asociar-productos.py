@@ -113,8 +113,8 @@ print(transactions[:20])
 from efficient_apriori import apriori
 # wARNING-CUIDADO!! no poner min_support pequeño como por ejempo 0.001!!
 # min_support y min_confiden entre 0 y 1
-min_support = 0.05
-min_confidence = 0.2
+min_support = 0.01
+min_confidence = 0.3
 itemsets, rules = apriori(transactions, min_support=min_support,  min_confidence=min_confidence)
 
 print(f'------------- RULES Support:{min_support} Confidence:{min_confidence}-----------------')
